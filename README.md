@@ -1,7 +1,8 @@
 # AI Powered ChatBot Using Gemini API
 
 This project was developped with the help of [google's gemini api](https://ai.google.dev/docs/gemini_api_overview)
-*Click here to see [demo of the app 😍](https://react-ai-chat-bot.vercel.app/)
+
+# Click here to see [demo of the app 😍](https://react-ai-chat-bot.vercel.app/)
 
 ## Prerequisites
 
