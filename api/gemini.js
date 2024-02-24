@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     const result = await chat.sendMessage(msg);
     const response = await result.response;
     const text = response.text();
-    res.send({ text });
+    res.send(text);
   } else {
     res.status(405).send('Method Not Allowed');
   }
