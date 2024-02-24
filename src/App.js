@@ -34,7 +34,7 @@ const App = () => {
           "Content-Type": "application/json",
         },
       };
-      const response = await fetch("https://react-ai-chat-bot.vercel.app/gemini", options);
+      const response = await fetch("https://react-ai-chat-bot.vercel.app/api/gemini", options);
       const data = await response.text();
       console.log(data);
       setChatHistory((oldChatHistory) => [
