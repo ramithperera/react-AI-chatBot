@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     });
     const msg = req.body.message;
     const result = await chat.sendMessage(msg);
-    const response = await result.response;
+    const response = await result.response.text;
     const text = response.text();
     res.status(200).json({ text });
   } else {
