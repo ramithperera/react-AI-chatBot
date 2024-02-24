@@ -14,7 +14,7 @@ This project was developped with the help of [google's gemini api](https://ai.go
 
 1. Clone this repository:
 ```bash 
-`git clone https://github.com/ramithperera/react-AI-chatBot`
+git clone https://github.com/ramithperera/react-AI-chatBot
 ```
 2. Open a terminal window in that directory.        
 3. Run `npm install` to download all dependencies listed in the package.json file. 
@@ -22,11 +22,15 @@ This project was developped with the help of [google's gemini api](https://ai.go
 ```bash
 GOOGLE_GEN_AI_KEY=<Your Google Gemini API Key>
 ```
-5. Start the backend on the terminal using following command:
+5. Change the url in `App.js` file `line number 37` to point to your own server if you are running one.
+```bash
+http://localhost:8000/gemini
+```
+6. Start the backend on the terminal using following command:
 ```bash
 npm run start:frontend
 ```
-6. Open another terminal window and run the frontend using following command:
+7. Open another terminal window and run the frontend using following command:
 ```bash
 npm run start:frontend
 ```
